@@ -1,2 +1,2 @@
 print ("Hellogit")
-print ("¿Que tal el curso?")
+print ("¿Que tal el curso git?")
