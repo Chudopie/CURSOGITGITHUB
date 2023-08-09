@@ -91,3 +91,6 @@ gitreflog //para ver todos los movimientos de checkout reset, commit, merge, ram
 git remote add origin //y el linkde git@github.com:chudopie/ //y nombre del archivo
 
 git push -u origin main
+
+git fetch descarga en local el historial de cambio, pero sin descargarse los cambios.
+
