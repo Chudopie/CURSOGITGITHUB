@@ -1,4 +1,4 @@
-//Number: una variable de tipo number, en JavaScript, es una variable que almacena un valor numérico. Los números pueden ser enteros o decimales. Ejemplo:
+    //Number: una variable de tipo number, en JavaScript, es una variable que almacena un valor numérico. Los números pueden ser enteros o decimales. Ejemplo:
 var edad = 29;
 var altura = 1.74;
 //String: una variable de tipo string, en JavaScript, es una variable que contiene una cadena de caracteres, es decir, una secuencia de letras, números, símbolos y/o espacios. Por ejemplo, podemos asignar una variable de tipo string de la siguiente manera:
