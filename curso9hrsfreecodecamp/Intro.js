@@ -109,4 +109,4 @@ estaciones.unshift("Verano");
 console.log(estaciones);
 estaciones.unshift ("invierno");
 console.log(estaciones);
-
+//me quede en metodos push, unshift, shift
