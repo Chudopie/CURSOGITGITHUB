@@ -1,0 +1,4 @@
+El archivo Prueba.css es un archivo de pruebas.
+El contenido del archivo sufrirá algunos cambios.
+Nota que hay un error en la extensión del archivo en la línea 1.
+Más adelante vamos a resolver ese error.
