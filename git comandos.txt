@@ -8,7 +8,7 @@ ls // listado de todos los directorios en la carpeta donde estamos
 cd "downloads/" //es para moverse a otro directorio o carpeta dentro de la que estamos
 cd .. //para movernos hacia atras de una carpeta, para regresarnos
 pwd // para observar cual es el lugar directorio en donde estamos ubicados
-mkdir " " entre comillas el nombre de carpeta para crear carpetato
+mkdir " " entre comillas el nombre de carpeta para crear carpeta
 //quiero eliminar la carpeta y ponerle otro nombre
 // o podria cambiarle el nombre pero anexare los comandos para eliminar una carpeta 
 // y para eliminar un archivo
@@ -47,9 +47,10 @@ git log --graph --pretty=oneline //graph pero resumido corto
 git log --graph --decorate --all --oneline ///resumido los 7 numeros en linea 
 
 git config --global alias.tree "log --graph --decorate --all --oneline" //ese alias sera un comando resumido al decir tree
-//ahora el alias tree significa todo lo del graph o la instruccion que yo desee
+//ahora el alias tree significa todo lo del graph o la instruccion 
+que yo desee git tree = git log --graph --decorate --all --oneline
 
-git tree = git log --graph --decorate --all --oneline
+
 
 touch .gitignore //Fichero creado pero para los ficheros que no querramos que aparescan para añadir y no vuelvan a aparecer
 // se agrega por ejemplo el .DS_store //asi:   **/.DS_store
@@ -72,8 +73,6 @@ descubriendo errores, si quiero cambiarme con checkout a otro commit para trabaj
 necesit primero añadir y hacer commit pendientes o eliminar añadidos y untrackeados
 para eliminar untrackeados el comando es:
 git clean -f //remueve todo lo untrackeado
-
-git revert?
 
 git branch login //creacion de rama login
 
