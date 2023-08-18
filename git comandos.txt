@@ -1,3 +1,5 @@
+comandos git.
+
 git // salen los comandos de git
 git --version // sale cual ha sido la ultima version
 git -v // sale lo mismo la ultima version pero es abreviado
@@ -44,7 +46,7 @@ git log --graph  // se observa en vertical el dibujito de la rama hacia donde va
 git log --graph --pretty=oneline //graph pero resumido corto
 git log --graph --decorate --all --oneline ///resumido los 7 numeros en linea 
 
-git config --glob	al alias.tree"log --graph --decorate --all --oneline" //ese alias sera un comando resumido al decir tree
+git config --global alias.tree "log --graph --decorate --all --oneline" //ese alias sera un comando resumido al decir tree
 //ahora el alias tree significa todo lo del graph o la instruccion que yo desee
 
 git tree = git log --graph --decorate --all --oneline
