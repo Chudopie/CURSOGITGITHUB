@@ -1,0 +1,45 @@
+body{
+    background-color: coral;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color:white;
+    /*font-size: 24px;*/
+     
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+div h2{
+    color:aqua;
+}
+
+#parrafoespecial{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.parrafo{
+    color:blue;
+    font-style: italic;
+}
+
+a,img{
+    display:block;
+}
+
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:blueviolet;
+}
+
+img{
+    width:35%;
+    margin:auto;
+}
