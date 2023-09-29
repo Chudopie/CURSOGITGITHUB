@@ -23,6 +23,14 @@ body {
       font-size: 62.5%;
   }
   
+a{
+  font-size:2rem;
+}
+
+.text-center{
+  font-size: 5rem;
+}
+
   .titulo-muebles {
     color: #037BC0;
   }
@@ -34,6 +42,29 @@ body {
   text-align: center;
   font-size: 5rem;
 } 
+
+   
+.heroimage{
+  background:url(/principal.jpg)center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 25rem;
+}
+@media (min-width: 768px) {
+.heroimage {
+    font-size: 55rem;
+}
+}
+
+
+
+h2{
+font-family:'playfair';
+align-self: center;
+justify-content: center;
+text-align: center;
+}
 .Producto-texto{
  font-size: 3rem;
 }
@@ -110,9 +141,6 @@ h3 {
 }
 
  
-a{
-  font-size:2rem;
-}
 
 
 
@@ -206,56 +234,12 @@ img {
   border-bottom-right-radius: 1rem;
 }
 
+/*prodctos*/
 .Main-contenido{
   padding-top: 5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
  
-   
-.heroimage{
-    background:url(/principal.jpg)center/cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 25rem;
-}
-@media (min-width: 768px) {
-  .heroimage {
-      font-size: 55rem;
-  }
-}
-
-
-
-h2{
-  font-family:'playfair';
-  align-self: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.Main-contenido {
-  padding-top: 5rem;
-}
-
-
-
-
-
-
-
 
 @media(min-width:768px)
 {
@@ -354,8 +338,4 @@ h2{
 .Soportes{
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.text-center{
-  font-size: 5rem;
 }

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ecommerce - Inicio</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+       <!--Crea un header en donde coloques el título de la tienda con h1. -->
+  <!--Crea un span para el título Tienda Muebles y aplícale el color #037BC0 a la palabra   	Muebles-->
+  <h1 style="text-align:center;">Muebles <span style="color:#037bc0;"> Troncoso</span></h1>
+    </header>
+    <!--Crea la barra de navegación (nav) con al menos cinco opciones. Se sugiere que esas  opciones sean Inicio, Nosotros, Tienda, Blog, Galería y Contacto.-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!--a)	Crea una clase para que puedas aplicarle el color #037BC0 a la palabra Muebles en el titulo Tienda Muebles y que luzca como la imagen maqueta.jpg.-->
+            <a class="navbar-brand" href="#">Menu <span style="color:#037bc0;">Troncoso</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+
+
+   
+     <!--Crea un div para la sección hero.
+    Importa las fuentes Playfair y Relaway de Google FontSync. Productos
+    Coloca el título de la sección con h2.
+    Utiliza la etiqueta para crear la sección principal de la página y crea la estructura  solicitada en la imagen maqueta.jpg con divs.-->
+
+    <section id="hero">
+        <div class="herocontainer">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h2 style="font-size:8vw">Colección 2023</h2>
+                    <p style="font-size: 4vw;">Ven y conoce lo mas novedoso en muebles</p>
+                    <button>Catafíxialos</button>
+                </div>
+            </div>
+        </div>
+</section>
+    
+
+
+    <section id="products" class="contenedor1">
+        <section id="products" class="contenedor1">
+            <!--Utiliza la etiqueta para crear la sección principal de la página y crea la estructura  solicitada en la imagen maqueta.jpg con divs.
+            Crea dos columnas en la primera fila. En la primera columna, coloca la imagen del  producto 1. En la segunda columna, agrega un fondo azul, así como el nombre del  producto (h3), la descripción, el precio y un botón de “agregar al carrito”.-->
+            <h2 style="text-align: center; margin: 25px 0 22px 0" ;>Nuestros Productos</h2>
+            <div  style="justify-content: center;">
+                <div class="foto1">
+                    <img src="producto1copia.jpg" alt="foto 1" style="max-width: 100%;">
+                </div>
+                <div class="texto1">
+                    <div>
+                        <h2 class="card-title">Cama Individual</h2>
+                        <p>Fabricada en madera de cedro, colchón ortopédico de memoria y juego de cama con edredón incluido</p>
+                        <h5 class="card-title">$12,000</h5>
+                        <button type="button" class="btn btn-success">Comprar</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div><br></div>
+    
+            <!--En la siguiente fila, crea dos columnas. En cada una de ellas, coloca las imágenes de  los productos 2 y 3,
+            respectivamente. Dentro de un div, coloca la información del  producto
+            (nombre, descripción, precio y el botón de “agregar al carrito”) con el fondo  azul.-->
+            <div class="grid1">
+                <div>
+                    <div class="card" style="width: 100%;">
+                        <img src="producto2.jpg" class="card-img-top" alt="producto2">
+                        <div class="card-body; texto1">
+                            <h5 class="card-title">Producto 2</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="card-title">$12,000</h5>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" style="width: 100%;">
+                        <img src="producto3.jpg" class="card-img-top" alt="producto3">
+                        <div class="card-body; texto1">
+                            <h5 class="card-title">Producto 3</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="card-title">$12,000</h5>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div><br></div>
+    
+            <!--Finalmente, crea una fila y tres columnas para que coloques la imagen 4, 5 y 6,  respectivamente.
+            En cada columna, coloca un div con la información del producto
+            (nombre, descripción, precio y el botón de “agregar al carrito”) con el fondo azul.-->
+    
+            <div class="grid2">
+                <div>
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="producto4.jpg" class="card-img-top" alt="producto4">
+                        <div class="card-body; texto1">
+                            <h5 class="card-title">Producto4</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nulla.</p>
+                            <h5 class="card-title">$12,000</h5>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="producto5.jpg" class="card-img-top" alt="Producto5">
+                        <div class="card-body; texto1">
+                            <h5 class="card-title">Producto5</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amisicing elit. Maiores, nulla.</p>
+                            <h5 class="card-title">$12,000</h5>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <img src="producto6.jpg" class="card-img-top" alt="producto6">
+                        <div class="card-body; texto1">
+                            <h5 class="card-title">Producto 6</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum aspernatur non quae cumque provident dolores nostrum officiis voluptatum, rerum fuga. Nostrum tenetur earum voluptatibus asperiores, eos doloremque voluptates vel repellendus ipsa fugiat ea autem. Et amet itaque voluptatem minus!</p>
+                            <h5 class="card-title">$12,000</h5>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    </section>
+    </section>
+   
+    <section id="Categorias">
+<!--Crea una nueva sección que tenga como título las categorías de productos con h2.
+    Crea una fila con tres columnas. En cada columna vas a poner una categoría y cada  categoría de los productos
+    contará con una imagen (incluidas en las imágenes del  proyecto) y un enlace (como la página es para efectos
+    demostrativos, coloca un # en  el href de la etiqueta a).
+    Las categorías en las que se dividirán los productos podrán ser categoría1, categoría2
+    y categoría 2, u Oficina, Hogar y Cocina-->
+
+    
+
+        <h2 style="text-align: center; margin: 25px 0 22px 0" ;>Categorías de Productos</h2>
+   
+        <div class="grid2 botones">
+            <div class="card catego1" style="width: 100%;">
+                <img src="categoria1.jpg" class="card-img-top" alt="catego1">
+                <div class="card-body; textocatego">
+                    <h5 class="card-title; catof"><a href="#">Oficina</a></h5>
+                </div>
+            </div>
+            <div class="card catego2" style="width: 100%;">
+                <img src="categoria2.jpg" class="card-img-top" alt="catego2">
+                <div class="card-body; textocatego">
+                    <h5 class="card-title; cathog"><a href="#">Hogar</a></h5>
+                </div>
+            </div>
+            <div class="card catego3" style="width: 100%;">
+                <img src="categoria3.jpg" class="card-img-top" alt="catego3">
+                <div class="card-body; textocatego">
+                    <h5 class="card-title"><a href="#">Cocina</a></h5>
+                </div>
+            </div>
+        </div>
+        <div><br style="margin: 10px 0px 10px 0px;"></div>
+    </section>
+      
+
+
+    <footer>
+        <div class="contenedornav">
+            <nav id="navfinal" class="botones">
+                <div class="lsfooter">
+                    <ul id="ulfinal">
+                        <h3>Categorías</h3>
+                        <li><a href="#">Cocina</a></li>
+                        <li><a href="#">Oficina</a></li>
+                        <li><a href="#">Jardín</a></li>
+                        <li><a href="#">Cochera</a></li>
+                        <li><a href="#">Dormitorios</a></li>
+                    </ul>
+                </div>
+                <div class="lsfooter">
+                    <ul id="ulfinal">
+                        <h3>Sobre Nosotros</h3>
+                        <li><a href="#">Cocina</a></li>
+                        <li><a href="#">Visión Misión Valores</a></li>
+                        <li><a href="#">Jardín</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos del Servicio</a></li>
+                    </ul>
+                </div>
+                <div class="lsfooter">
+                    <ul id="ulfinal">
+                        <h3>Soporte</h3>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Ayuda en Línea</a></li>
+                        <li><a href="#">Confianza y Seguridad</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div style="margin: 20px 0px 40px 0px">
+            <center><h6><i>Todos los derechos reservados.  Muebles <span style="color:#037bc0;"> Troncoso</span></i></h6></center>
+        </div>
+
+    </footer>
+
+</body>
+</html>
