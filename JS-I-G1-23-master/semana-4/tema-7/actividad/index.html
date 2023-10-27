@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Ejercicios del DOM</h1>
+    <button type="button" class="panel-btn hamburger hamburger--vortex" title="menu">X
+        <span class="burger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <aside class="menu visually-hidden border border-3 bg-warning-subtle position-absolute w-100 top-0 p-4 vstack">
+        <a type="menu-item" href="#seccion1">Sección 1</a>
+        <a type="menu-item" href="#seccion2">Sección 2</a>
+        <a type="menu-item" href="#seccion3">Sección 3</a>
+        <a type="menu-item" href="#seccion4">Sección 4</a>
+        <a type="menu-item" href="#seccion5">Sección 5</a>
+    </aside>
+
+    <div class="m-4">
+        <section id="seccion1" class="section py-5 m-3">
+            <h2>Reloj Digital y Alarma Sonora</h2>
+            <div id="reloj">
+                <div class="fila flex centrada">
+                    <button type="button" id="activar-reloj">Iniciar Reloj</button>
+                    <button type="button" id="desactivar-reloj">Detener reloj</button>
+                    <button type="button" id="activar-alarma">Iniciar Alarma</button>
+                    <button type="button" id="desactivar-alarma">Detener Alarma</button>
+                </div>
+            </div>
+        </section>
+        <section id="seccion2" class="section py-5 m-3">
+            <h2>Sección 2</h2>
+        </section>
+        <section id="seccion3" class="section py-5 m-3">
+            <h2>Sección 3</h2>
+        </section>
+        <section id="seccion4" class="section py-5 m-3">
+            <h2>Sección 4</h2>
+        </section>
+        <section id="seccion5" class="section py-5 m-3">
+            <h2>Sección 5</h2>
+        </section>
+    </div>
+
+    <!-- Cargar Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Ejecutamos nuestro código después de cargar Bootstrap -->
+    <script src="main.js" type="module"></script>
+
+</html>
