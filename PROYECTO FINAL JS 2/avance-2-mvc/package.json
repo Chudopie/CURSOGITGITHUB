@@ -1,0 +1,15 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Forkify - Recetas de cocina",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "Alan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.10.3"
+  }
+}
